@@ -1,0 +1,90 @@
+/* Navbar.css */
+* {
+    background: #0C0C0C;
+
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 10px 20px;
+    
+    margin: 5px;
+}
+
+.navbar-logo img {
+    height: 40px;
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-2 {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.navbar-2 ul li {
+    color: #E5DFD9;
+    list-style: none;
+    font-family: Encode Sans;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 17.5px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    cursor: pointer;
+}
+.bags{
+    width: 90%;
+    margin: 10px;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.left,.right{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #E5DFD9;
+
+}
+
+
+.categorie-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
